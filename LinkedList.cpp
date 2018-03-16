@@ -118,7 +118,7 @@ bool LinkedList::remove(int x)
 			current = current->next;
 		}
 	}
-	listSize--;
+
 	return false;
 
 }
